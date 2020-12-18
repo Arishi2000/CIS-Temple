@@ -1,0 +1,26 @@
+Q3) Line 8 in the constructor reads this.name = name; Change this line to name = name; (that is, delete this.) Recompile and run your new Duck.
+What does it print? Why? Explain the result in one or two sentences.
+
+Ans: the keyword This is used to refer instance variable of the class, so it prints null because the compiler doesn't know which one are we talking about and it confusing it between the name of the variable and its value
+because they are the same, so we have to use the keyword this in this kind of situation to avoid any confusion otherwise we're gonna have to chane the value form name to duckName.
+
+
+Q4) Now change line 17 to System.out.println(this.name) (that is, add this.).
+What difference did this change make? Do you see any changes in the output? Explain in a sentence or two the effect of adding this. before name on line 17.
+
+Ans: Nothing has occurred in the output when we added this at the 17th line because we didn't set the value for the instance variable name through the constructor, So by adding this to the name variable at line 17,
+doesn't make any difference in the output,
+because the variable name is null already if we again refer the name with this keyword, will not change the value instead it prints only null since no value was defined for the variable.
+
+
+
+
+
+
+Q5) Do you think that Duck’s author made a wise choice by using the same variable name, name, for both the name field (line 4) and for the parameter name (line 8)?
+ Which of the following three versions of the constructor do you prefer?
+
+A) No, because there will be so much confusion that will happen between instance variable name(class variable) and argument name, so to avoid this problem we can have instance and local variable names different.
+
+B) I like the third one because the instance variable and the constructor argument names were different,
+so it will not get to the ambiguity between instance and local variable since the compiler won't get confused while assigning the value.

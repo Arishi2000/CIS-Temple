@@ -1,0 +1,8 @@
+Problem 1 -> Big-O runtime of getInversionCount() is O(n^2)
+
+Problem 2 :
+(b)  O(n^2)
+(c) Merge sort was faster on some files which had low value of n while merge sort was faster on large n
+(d) yeah both are stable sorting algorithms
+(e) For small value of n (number of elements), Insertion sort would be better than merge sort since merge sort have high constant value on runtime complexity
+    while on large values of n, merge sort will always be faster than insertion sort.

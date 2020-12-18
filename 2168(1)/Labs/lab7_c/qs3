@@ -1,0 +1,37 @@
+Qs1)
+Test 1
+------
+ Uncomment lines 9 through 37 in TopMints.java to run this test.
+			Top 5 integers are
+999986
+999988
+999990
+999995
+999996
+
+It took 1.71 seconds to process 1,000,000 integers using a priority queue.
+
+Test 2
+------
+			Top 5 integers are
+999986
+999988
+999990
+999995
+999996
+
+It took 1.87 seconds to process 1,000,000 integers by sorting them.
+-------------------------------------------------------------------
+
+Qs2)
+
+It took 1.71 seconds for test 1 to compile
+
+Qs3)
+The big o of test 1 is O(n)
+
+Qs4)
+It took 1.87 seconds for test 2 to compile
+
+Qs5)
+The big o of test 2 is O(n)

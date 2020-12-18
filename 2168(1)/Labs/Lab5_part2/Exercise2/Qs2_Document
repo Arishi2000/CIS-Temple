@@ -1,0 +1,5 @@
+in this question I used stack as a data structure to solve this problem
+so basically in this method we are pushing opening characters into stack and
+then pop up when closing symbols show up, we will pop up
+and check with its appropriate symbol if it is the appropriate one then we will  do the same further
+till stack is not empty, if not then return the index at that point at where error happens.

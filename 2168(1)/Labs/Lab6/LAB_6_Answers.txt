@@ -1,0 +1,44 @@
+Problem 1
+
+(a) - 4039
+
+(b) ; Since we have three for loops that will execute n * n * n = n^3 time, so the worst-case running time would be O(n^3),
+
+Problem 2
+(a)
+- The numbers in the first column is input size (n),
+and the numbers in the second column is the run time the program takes when we pass n into the
+method and returning the time in seconds. the bigger n gets the more time it takes to execute
+
+B) - the time that took to find the number of triples is 461 * 0.001 = 0.461 seconds.
+
+c) using the given equation;
+    250    0.00
+    500    0.00
+   1000    0.00
+   2000    0.00
+   4000    0.00
+   8000    0.00
+  16000    1.00
+
+a = 1/16000^3  = approximately 2.4414*10^-13
+
+Problem 3
+
+(a) - number of times if statement gets executed can be be given by the expression: (n^2)- (n).
+
+ demo;
+ - n-1 + n-2 + n-3 + ... + 1 + 0
+ -  n-1 + n-2 + n-3 + ... + n - (n-1) + (n-n)
+ - (n + n + ... + n)-(1+ 2+ ...+ n)
+ = (n^2)- (n)
+
+b) - 66
+
+(c) - From the expression that we drive in (a) it is clear that Big-O estimate of TwoSum.count method is O(n^2).
+
+Problem 4
+
+(a) - O(n log n)
+
+(b) - 249838

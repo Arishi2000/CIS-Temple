@@ -1,0 +1,23 @@
+in this question I used queues as my data structure way to solve this problem
+So Queues in data structure is different than stacks, the new element is inserted at end and deleted from front.
+the methods peak, push, and pop helped me a lot in this question, so let me explain how it's working,
+
+supposing that n = 9 and m = 5
+
+-> rear  [1,2,3,4,5,6,7,8,9]  <- front
+
+(1)
+first delete one element from the front and insert same element to rear;
+we will repeat this step 5-1 = 4 times which is m-1 times
+(2)
+then after shifting 4 element we get the following queue
+
+ -> [6,7,8,9,1,2,3,4,5]
+
+now will delete one element from the front which is 5 in our example,
+
+we will get this;
+
+      -> [6,7,8,9,1,2,3,4]
+
+  ** repeating step 1 and 2 until we get one element left in the queue, and that one element in the queue will be the leader **
